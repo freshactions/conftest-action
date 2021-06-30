@@ -22,7 +22,7 @@ inputs:
     default: "stdout"
 runs:
   using: 'docker'
-  image: 'docker://instrumenta/conftest:latest'
+  image: 'docker://public.ecr.aws/i1i0w6p5/instrumenta/conftest:latest'
   entrypoint: sh
   args:
   - -c
